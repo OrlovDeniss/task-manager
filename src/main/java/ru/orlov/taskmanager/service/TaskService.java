@@ -39,7 +39,7 @@ public class TaskService {
     }
 
     public TaskDto getTaskById(long id) {
-        Task task = taskRepository.findById(id).orElseThrow(() -> new TaskNotFoundException("Задача id = " + id + "не найдена"));
+        Task task = taskRepository.findById(id).orElseThrow(() -> new TaskNotFoundException("Задача id = " + id + " не найдена"));
         return taskMapper.toDto(task);
     }
 
