@@ -23,6 +23,7 @@ import java.util.List;
 public class TaskService {
 
     private static final TaskMapper taskMapper = TaskMapper.INSTANCE;
+
     private final TaskRepository taskRepository;
 
     public TaskDto createNewTask(NewTaskDto newTaskDto) {
