@@ -21,7 +21,6 @@ public class NewTaskDto {
     @Size(max = 255)
     private String description;
 
-
     @NotNull
     @FutureOrPresent
     @DateTimeFormat(pattern = "yyyy-MM-dd'T'hh:mm:ss")
