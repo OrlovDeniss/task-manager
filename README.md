@@ -9,10 +9,10 @@ Java 17, Maven, Spring Boot 3, Spring Data, PostgreSQl, JUnit, Mockito
 URL: http://localhost:8080
 
 - POST /tasks - создать задачу
-- GET /tasks - получить список всех задач
 - PUT /tasks/{id} - обновить задачу пр id
+- GET /tasks - получить список всех задач
 - GET /tasks/{id} - получить задачу по id
-- GET /tasks/{id} - удалить задачу по id
+- DELETE /tasks/{id} - удалить задачу по id
 
 
 Подробнее: http://localhost:8080/swagger-ui/index.html
